@@ -1,5 +1,7 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
+/* ===== Reset y configuración general ===== */
 * {
   margin: 0;
   padding: 0;
@@ -25,6 +27,7 @@ main {
   flex: 1;
 }
 
+/* ===== Header y navegación principal ===== */
 header {
   background-color: #1f1f1f;
   padding: 1rem 2rem;
@@ -54,6 +57,7 @@ nav a:hover {
   color: #00c3ff;
 }
 
+/* ===== Títulos y estructura principal ===== */
 main {
   padding: 2rem;
 }
@@ -63,6 +67,7 @@ h2 {
   color: #00c3ff;
 }
 
+/* ===== Grilla de productos ===== */
 .grid-productos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -73,6 +78,7 @@ h2 {
   justify-content: center;
 }
 
+/* ===== Tarjetas de producto ===== */
 .producto {
   background-color: #1e1e1e;
   padding: 1rem;
@@ -107,6 +113,7 @@ h2 {
   border-radius: 8px;
 }
 
+/* ===== Botón agregar al carrito (hover) ===== */
 .btn-carrito {
   position: absolute;
   bottom: 10px;
@@ -131,6 +138,7 @@ h2 {
   color: #a9a9a9;
 }
 
+/* ===== Botones generales ===== */
 button {
   margin-top: 0.5rem;
   background-color: #00c3ff;
@@ -152,10 +160,12 @@ button:focus {
   outline-offset: 2px;
 }
 
+/* ===== Secciones generales ===== */
 section {
   margin-bottom: 2rem;
 }
 
+/* ===== Botones del carrito (Pagar/Cancelar) ===== */
 .botones-carrito {
   display: flex;
   gap: 1rem;
@@ -163,6 +173,7 @@ section {
   margin-top: 1rem;
 }
 
+/* ===== Total del carrito ===== */
 .total-carrito {
   display: flex;
   justify-content: space-between;
@@ -199,6 +210,7 @@ section {
   background-color: #009ec9;
 }
 
+/* ===== Footer ===== */
 footer {
   text-align: center;
   padding: 1rem;
@@ -206,6 +218,7 @@ footer {
   color: #888;
 }
 
+/* ===== Formulario de contacto ===== */
 form {
   display: flex;
   flex-direction: column;
@@ -237,6 +250,7 @@ form textarea {
   border: none;
 }
 
+/* ===== Sección de contacto (estructura y slider) ===== */
 .contacto-section .contacto-contenido {
   display: flex;
   align-items: flex-start;
@@ -277,7 +291,7 @@ form textarea {
   margin: 0 auto;
 }
 
-
+/* ===== Media queries (responsivo) ===== */
 @media (max-width: 768px) {
   .grid-productos {
     grid-template-columns: 1fr !important;
@@ -307,15 +321,5 @@ form textarea {
   .contacto-section .contacto-contenido {
     flex-direction: column;
     align-items: stretch;
-    gap: 2rem;
-  }
-
-  .contacto-slider,
-  .contacto-section form {
-    max-width: 100%;
-  }
-
-  input, textarea {
-    font-size: 1rem;
   }
 }
