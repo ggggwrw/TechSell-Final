@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto - TechSell</title>
+  <link rel="icon" type="image/png" href="ImgVarias/logo.png">
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Contactate con TechSell para consultas o soporte sobre productos tecnológicos.">
+</head>
+<body>
+  <header>
+    <a href="index.html" style="text-decoration: none;">
+      <button style="background: none; border: none; color: #00c3ff; font-size: 2rem; font-family: inherit; font-weight: bold; cursor: pointer; padding: 0;">
+        TechSell
+      </button>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="index.html#catalogo">Catálogo</a></li>
+        <li><a href="index.html#sobre-nosotros">Sobre Nosotros</a></li>
+        <li><a href="contacto.html" class="activo">Contacto</a></li>
+        <li><a href="carrito.html">🛒</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contacto-section">
+      <h2>Contacto</h2>
+      <div class="contacto-contenido">
+        <form id="form-contacto">
+          <input type="text" name="nombre" placeholder="Tu nombre" required />
+          <input type="email" name="email" placeholder="Tu correo" required />
+          <textarea name="mensaje" placeholder="Escribinos tu consulta" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+        <div class="contacto-slider">
+          <img id="slider-img" src="ImgVarias/imgaen ayuda.jfif" alt="Opiniones de clientes TechSell" />
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 TechSell. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
