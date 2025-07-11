@@ -87,20 +87,22 @@ window.productosManual = [
     id: 115,
     title: "Nubia focus 4G",
     price: 170,
-    image: "Productos/prod 3.webp"
+    image: "Productos/prod3.webp"
   },
   {
     id: 116,
     title: "Motorola E15",
     price: 300,
-    image: "Productos/prod 2.webp"
+    image: "Productos/prod2.webp"
   },
   {
     id: 117,
     title: "Samsung Galaxy A15",
     price: 250,
-    image: "Productos/prod 1.webp"
+    image: "Productos/prod1.webp"
   },
+
+
 
 
 
