@@ -99,7 +99,7 @@ window.productosManual = [
     id: 117,
     title: "Samsung Galaxy A15",
     price: 250,
-    image: "Productos/prod1.webp"
+    image: "Productos/Prod1.webp"
   },
 
 
