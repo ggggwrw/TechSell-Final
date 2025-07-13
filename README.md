@@ -12,3 +12,9 @@ Update: 1
 Arregle un error con el catálago que no mostraba las imágenes, lo siguiente que voy a agregar son etiquetas para los productos.
 
 Sume la sección de reviews, no sé si se sumo al master
+
+---------
+
+Update 2
+
+Sume el carrusel de reseñas esperado 
